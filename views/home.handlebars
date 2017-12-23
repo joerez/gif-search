@@ -1,0 +1,14 @@
+
+
+
+  <h1 class="wow animated pulse">Search for GIFS</h1>
+  <form class="wow animated bounce" action="/">
+    <input type="text" name="term">
+    <button type="submit">Search</button>
+  </form>
+  <div class="gifcon">
+    {{#each gifs}}
+      <img class="wow animated pulse portmation" src="{{this.images.fixed_height.url}}">
+    {{/each}}
+  </div>
+  <p>Made by Joe Rezendes</p>
