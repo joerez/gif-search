@@ -16,6 +16,7 @@ h1 {
   padding-top: 20px;
   text-align: center;
   width: auto;
+  text-shadow: 0, 0, 50px, #000;
 }
 
 .gifcon {
